@@ -1,0 +1,37 @@
+ul{list-style: none;}
+ul li{text-decoration: none; padding: 20px;
+    display: inline-block;
+}
+
+ul li a{text-decoration: none;
+    color: #fefefe;
+    font-family: sans-serif;
+    font-weight: bold;}
+    li  :hover{background-color: black;}
+div{display: flex;
+    background-color: red;
+
+}
+body{background-color:#fefefe}
+h2{font-family: sans-serif;
+    color: #fefefe;
+    display: flex;
+    padding: 10px;
+}
+img{padding: 10px;
+    border-radius: 10px;}
+
+    table{background-color: antiquewhite;
+        border-collapse: collapse;
+        margin: auto;
+        font-family: sans-serif;
+        
+     
+    }
+        th,td{width: 150px;
+        height: 50px;}
+        th{background-color: khaki;}
+        tr:nth-last-of-type(even){background-color: #b7bac3;}
+
+       
+

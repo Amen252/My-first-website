@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="reg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: black;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerbuttom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbuttom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+     </style>
+    
+
+</head>
+<body>
+    <div>
+        <img src="logo.jpg" width="150px" height="150px" alt=""> <br> <br>
+        <h1>horseed sports club</h1> 
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+            <li><a href="reg.html">REGESITER HERE</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="his.html">HISTORY</a></li>
+            </ul>
+        </nav>    
+    </div> <br> <br>
+    <form action="eccpted.html">
+        <fieldset>
+            <legend>Registration Form</legend>
+     <label>Name: <input type="text" size="30" maxlength="15"
+                   required placeholder="enter your name here" > </label> <br><br>
+    <label> Email: <input type="email" required placeholder="enter your email here"></label> <br><br>
+    <label> Password: <input type="password" required placeholder="enter your password here"></label> <br><br>
+    Gender: <input type="radio" required name="gender"> Male <br><br>
+            
+   
+    <select> 
+        <option>select your possition</option>
+        <option>GK</option>
+        <option>CB</option>
+        <option>RB</option>
+        <option>LB</option>
+        <option>CDM</option>
+        <option>CMF</option>
+        <option>CAM</option>
+        <option>LWF</option>
+        <option>CF</option>
+        <option>RWF</option>  
+    </select> <br><br>
+    *Comments <br>
+    <textarea cols="40" rows="10"></textarea> <br><br>
+    <input type="submit" value="Sign up"> 
+</fieldset>
+    </form> 
+</body> <br> <br>
+<footer>
+    <div class="footercontainer">
+        <div class="socialicons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google -plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        
+    </div>
+    <div class="footerbuttom">
+        <p>copy right by &copy; horseed sports club 2023; Desinged by <span class="designer">Mohamed ameen</span></p>
+    </div>
+</footer>
+        
+</html>
